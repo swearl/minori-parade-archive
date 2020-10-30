@@ -5,6 +5,7 @@
   "main": "dist/index.js",
   "scripts": {
     "build": "tsc",
+    "dev": "tsc -w",
     "start": "node dist/index.js",
     "import": "npm run start import",
     "test": "echo \"Error: no test specified\" && exit 1"
